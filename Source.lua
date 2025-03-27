@@ -13,9 +13,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/thiwnthah/BloxFruit/
         Keys = {"KEY_27032025", "KEY_25023072", "KEY_27033072"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "ĐANG CHẠY SCRIPT",
-       Incorrectkey = "KEY KHÔNG ĐÚNG",
-       CopyKeyLink = "ĐÃ SAO CHÉP LINK"
+        CorrectKey = "DANG CHAY SCRIPT",
+       Incorrectkey = "KEY KHONG DUNG",
+       CopyKeyLink = "DA SAO CHEP LINK"
       }
     }
   })
