@@ -95,12 +95,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
   end
   })
-  
-  AddButton(Tab2o, {
-     Name = "Discord",
-    Callback = function()
-	  
-https://discord.gg/YVAact85mz
-  end
-  })
-  
