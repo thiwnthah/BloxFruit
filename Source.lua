@@ -8,7 +8,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/thiwnthah/BloxFruit/
         Key = {
         KeySystem = true,
         Title = "THIWN THAH HUB",
-        Description = "FREEMIUM V1",
+        Description = "  FREEMIUM V1",
         KeyLink = "https://sub4unlock.io/AarF9",
         Keys = {"KEY_27032025", "KEY_25023072", "KEY_27033072"},
         Notifi = {
@@ -30,11 +30,23 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/thiwnthah/BloxFruit/
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "SCRIPT"})
+     local Tab1o = MakeTab({Name = "GENERAL"})
      local Tab2o = MakeTab({Name = "SETTING"})
      
 ------- BUTTON
     
+    AddButton(Tab1o, {
+     Name = "Thiwn Thah Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiwnthah/BloxFruit/refs/heads/main/HUB.lua"))()
+  end
+  })
+  
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
