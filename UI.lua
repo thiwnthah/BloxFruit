@@ -5,7 +5,7 @@ local Configs_HUB = {
   Cor_Text = Color3.fromRGB(0, 0, 0),
   Cor_DarkText = Color3.fromRGB(0, 0, 0),
   Corner_Radius = UDim.new(0, 4),
-  Text_Font = Enum.Font.GothamBold
+  Text_Font = Enum.Font.FredokaOne
 }
 
 local CoreGui = game:GetService("CoreGui")
