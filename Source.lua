@@ -31,11 +31,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/thiwnthah/BloxFruit/
       
 ------ Tab
      local Tab1o = MakeTab({Name = "SCRIPT"})
+     local Tab2o = MakeTab({Name = "SETTING"})
      
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "REDZ HUB",
+     Name = "Redz Hub",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -45,3 +46,61 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/thiwnthah/BloxFruit/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
   })
+  
+  AddButton(Tab1o, {
+     Name = " Rubu Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RubuHubV3.txt"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Xero Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Xeter Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+getgenv().Version = "V1"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Tsuo Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Discord",
+    Callback = function()
+	  
+https://discord.gg/YVAact85mz
+  end
+  })
+  
