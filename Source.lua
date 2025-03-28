@@ -1,4 +1,8 @@
+-- [=> THIWN THAH HUB <=]
+-- author : thien thanh official
 -- discord.gg/YVAact85mz
+-- youtube.com/@thienthanhsamp_official
+-- script lỏ thông cảm đi mấy bro=))
 
 
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/thiwnthah/BloxFruit/refs/heads/main/UI.lua")))()
@@ -43,6 +47,18 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/thiwnthah/BloxFruit/
 ------- BUTTON
     
     AddButton(Tab1o, {
+     Name = "THIEN THANH OFFICIAL",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiwnthah/BloxFruit/refs/heads/main/HUB.lua"))()
+  end
+  })
+  
+     AddButton(Tab1o, {
      Name = "discord.gg/YVAact85mz",
     Callback = function()
 	  local Settings = {
