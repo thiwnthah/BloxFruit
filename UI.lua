@@ -18,6 +18,8 @@ local username = player.Name
 local userId = player.UserId
 local avatarUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. userId .. "&width=420&height=420&format=png"
 
+local HubUI = script.Parent
+
 local ScreenGui = Instance.new("ScreenGui", CoreGui)
 local Frame = Instance.new("Frame", ScreenGui)
 Frame.Size = UDim2.new(0, 200, 0, 100)
