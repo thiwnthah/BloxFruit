@@ -4,8 +4,6 @@
 -- youtube.com/@thienthanhsamp_official
 -- script lỏ thông cảm đi mấy bro=))
 
-
-
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/thiwnthah/BloxFruit/refs/heads/main/UI.lua"))()
 
 -- THIWN THAH HUB V2 --
@@ -21,7 +19,7 @@ Window:AddMinimizeButton({
 })
 
 -- TAB | V2
-local Tab1 = Window:MakeTab({"Discord", "info"})
+local Tab = Window:MakeTab({"Discord", "info"})
 
 -- local Tab2 = Window:MakeTab({"Farm", "home"})
 
@@ -40,11 +38,12 @@ local Tab1 = Window:MakeTab({"Discord", "info"})
 -- local Tab9 = Window:MakeTab({"Khác", "settings"})
 
 -- BUTTON | V2 
-Tab1:AddDiscordInvite({
+Tab:AddDiscordInvite({
     Name = "THIEN THANH OFFICIAL",
     Description = "Tham Gia Discord Của Tôi Để Nhận Thông Tin Về Bản Cập Nhật Tiếp Theo",
     Logo = "rbxassetid://88562990432140",
     Invite = "https://dsc.gg/thienthanhofficial",
+  })
 
 local Dropdown = Tab2:AddDropdown({
   Name = "Chọn Công Cụ",
