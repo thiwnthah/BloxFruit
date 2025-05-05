@@ -7,8 +7,8 @@
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/thiwnthah/BloxFruit/refs/heads/main/UI.lua"))()
 
 local Window = redzlib:MakeWindow({
-  Title = "THIWN THAH",
-  SubTitle = "thienthanhofficial",
+  Title = "THIWN THAH HUB",
+  SubTitle = "PREMIUM V2",
   SaveFolder = "THIWN THAH HUB V2.lua"
 })
 
