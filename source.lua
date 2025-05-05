@@ -33,7 +33,7 @@ Tab1:AddDiscordInvite({
     Description = "Tham Gia Discord Của Tôi Để Nhận Thông Tin Về Bản Cập Nhật Tiếp Theo",
     Logo = "rbxassetid://88562990432140",
     Invite = "https://dsc.gg/thienthanhofficial",
-
+  })
 local Dropdown = Tab2:AddDropdown({
   Name = "Chọn Công Cụ",
   Description = "Chọn công cụ bạn muốn sử dụng",
